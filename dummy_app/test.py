@@ -25,3 +25,4 @@ def continuous_job():
         print("cont")
         logging.error("cont")
         T.sleep(2)
+
