@@ -6,7 +6,8 @@ docker-compose down --remove-orphans
 #start
 docker-compose -f docker-compose.yml up -d --build
 
-RESULT=`docker-compose logs -f`
+# RESULT=`docker-compose logs -f`
+RESULT=`ls`
 echo "$RESULT"
 
 #echo "Type 'docker-compose down' to tear-down"
