@@ -5,9 +5,10 @@ USER=$(whoami)
 
 #teardown
 docker-compose down --remove-orphans
+echo "BLA"
 
 #start
-docker-compose -f docker-compose.yml up -d --build
+docker-compose up -d --build
 # RESULT=`docker-compose logs`
 
 RESULT=`ls -la`
