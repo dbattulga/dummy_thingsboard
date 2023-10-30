@@ -13,7 +13,8 @@ docker-compose up -d --build
 LOL=`docker-compose logs`
 echo "$LOL"
 
-RESULT=`ls -la`
+#RESULT=`ls -la`
+RESULT=`whoami`
 echo "$RESULT"
 
 #echo "Type 'docker-compose down' to tear-down"
