@@ -1,4 +1,5 @@
 USER=$(whoami)
+USER='airflow'
 # usermod -aG docker $USER                  # to add myself to docker group
 # chgrp docker /usr/local/bin/docker-compose     # to give docker-compose to docker group,
 # chmod 750 /usr/local/bin/docker-compose
