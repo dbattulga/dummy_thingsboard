@@ -9,7 +9,9 @@ echo "BLA"
 
 #start
 docker-compose up -d --build
-# RESULT=`docker-compose logs`
+
+LOL=`docker-compose logs`
+echo "$LOL"
 
 RESULT=`ls -la`
 echo "$RESULT"
