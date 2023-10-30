@@ -1,8 +1,8 @@
 USER=$(whoami)
 
-sudo usermod -aG docker $USER                  # to add myself to docker group
-sudo chgrp docker /usr/local/bin/docker-compose     # to give docker-compose to docker group,
-sudo chmod 750 /usr/local/bin/docker-compose
+usermod -aG docker $USER                  # to add myself to docker group
+chgrp docker /usr/local/bin/docker-compose     # to give docker-compose to docker group,
+chmod 750 /usr/local/bin/docker-compose
 
 #teardown
 docker-compose down --remove-orphans
