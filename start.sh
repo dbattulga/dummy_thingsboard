@@ -6,7 +6,7 @@ docker-compose down --remove-orphans
 #start
 docker-compose -f docker-compose.yml up -d --build
 
-RESULT=`docker-compose logs -f`
+RESULT=`docker-compose logs`
 # RESULT=`docker ps -a`
 # RESULT=`ls -la`
 echo "$RESULT"
