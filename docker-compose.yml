@@ -4,5 +4,4 @@ services:
 
   dummy_tb:
     build: ./dummy_app
-    privileged: true
     restart: on-failure
