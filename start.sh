@@ -16,6 +16,7 @@ echo "$LOL"
 
 #RESULT=`ls -la`
 RESULT=`whoami`
+RESULT="THIS LOG SHOULD CHANGE"
 echo "$RESULT"
 
 #echo "Type 'docker-compose down' to tear-down"
